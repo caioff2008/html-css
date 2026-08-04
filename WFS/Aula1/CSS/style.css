@@ -1,11 +1,31 @@
-:rot{
-    --cor-fundo: #f7f5f0;
-    --cor-texto: #26302c;
+:root {
+    --cor-fundo: #69af8e;
+    --cor-texto: #0a0d11;
 }
-body{
-    margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: var( --cor-fundo);
+
+body {
+    margin: 20px;
+    background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    line-height: 1.5;
+
+    /* Fonte */
+    font-family: Times New Roman, Times, serif;
+
+    /* Tamanho da fonte */
+    font-size: 22px;
+
+    /* Espaçamento entre as linhas */
+    line-height: 1.6;
+}
+.titulo-pagina {
+    font-size: 40px;
+    color: #1e3a8a;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+.subtitulo_pagina {
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+    font-family: Verdana, sans-serif;
 }
